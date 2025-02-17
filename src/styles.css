@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&display=swap");
+body {
+  font-family: "Mukta";
+  color: white;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+audio {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.container {
+  position: relative;
+  margin: 100px auto 50px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57, 0.5) 11.2%,
+    rgba(31, 45, 59) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  max-width: 50%;
+  max-height: 40%;
+  text-align: center;
+  border-radius: 40px;
+}
+li img {
+  width: 45px;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.current {
+  display: flex;
+  gap: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  text-align: start;
+  padding: 50px 30px 0 30px;
+}
+.author {
+  padding: 20px 0;
+  font-size: 18px;
+}
+.current {
+  align-self: end;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 100;
+}
+form {
+  height: 60%;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.5;
+  margin: 0 0 30px;
+}
+
+input,
+input:focus {
+  outline: none;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+.divider {
+  border: 0.5px solid white;
+  opacity: 1;
+}
+.search {
+  width: 100%;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+}
+.right-page h3 {
+  font-size: 30px;
+}
+.right-page p {
+  font-size: 23px;
+}
+
+.right-page {
+  width: 40%;
+  text-align: start;
+}
+::placeholder {
+  color: black;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.btn-search {
+  border: none;
+  padding: 15px 25px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  width: 200px;
+  transition: all 1s ease;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.3);
+}
+.btn-search:hover,
+.btn-current:hover {
+  background: white;
+  color: black;
+}
+a:hover {
+  color: #f8b72e;
+}
+.btn-current {
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.3);
+  border: none;
+  padding: 15px 25px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  width: 200px;
+  transition: all 1s ease;
+}
+.weather-days {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+.weather-forecast-tempearature-max {
+  padding-right: 3px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.author {
+  font-size: 18px;
+}
+.author a {
+  font-weight: bolder;
+}
+
+#description {
+  text-transform: capitalize;
+}
+
+.active {
+  color: #f8b72e;
+}
